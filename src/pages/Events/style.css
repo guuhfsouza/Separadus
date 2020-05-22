@@ -1,0 +1,148 @@
+.events-content{    
+    min-height: 100vh;
+    max-height: auto ;
+    /* display: grid; */
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    background-image: url('../../assets/backgroundBlack11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.events-content-internal{
+    background:rgba(34, 34, 34, 0.5);
+    filter: brightness(200%);
+    border-radius: 8px;
+    padding-bottom: 5%;
+}
+
+.home-container .home-content .events-content h5{
+    border-bottom: 1px solid #30CCB8;
+    color: #fefefe;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.events-content ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.events-content ul span{
+    padding: 2%;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: auto;
+    margin-bottom: 0;
+    align-items: baseline;
+}
+
+.arroDown{
+    z-index: 10;
+}
+
+/* 
+@media (prefers-reduced-motion: no-preference){
+    .events-content ul span .arroDown{
+        animation: arrow-animation infinite 1s ;
+    }
+}
+
+@keyframes arrow-animation{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+} */
+
+.events-content ul li{
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+
+.events-content ul li ~ li{
+    margin-top: 1%;
+}
+
+.events-content ul li .event{
+    box-sizing: border-box;
+    display: flex;
+    padding:2%;
+    margin: 0 10%
+}
+
+.events-content ul li .event .event-details{
+    width: 100%;
+    text-align: left;
+    padding:3%;
+    align-items: center;
+    /* background:rgba(34, 34, 34, 0.5); */
+    border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+    filter: brightness(500%);
+    transform: translate3d(-50px, 0,0);
+    opacity: 0;
+    transition: 1s;
+}
+
+.events-content ul li .event .event-details .event-animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: 1s;
+}
+
+.events-content ul li .event-details a{
+    color: #ffffff;
+    margin-right: 0;
+    margin-left: auto;
+   }
+
+.events-content ul li .event-details span{
+    font-size: 25px;
+}
+
+.events-content ul li .event-details span ~ span{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.more{
+    width: auto;
+    text-align: right;
+    margin-top: -4%;
+    padding: 2px 0;
+}
+
+.event-more-details{
+    padding: 1% 1% 1% 0;
+    display: none;
+    transition: 5s;
+}
+
+.event-more-details-on{
+    padding: 1% 1% 1% 0;
+    transition: all 5s;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.event-more-details-on:target{
+    transition: 5s;
+}
+
+.events-content ul li .event .event-details .event-more-details span{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 1% 1% 1% 0;
+}

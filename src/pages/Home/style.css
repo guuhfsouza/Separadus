@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+
+.home-container{
+    width: 100%;
+    display: grid;
+    box-sizing: border-box;
+}
+
+.home-container .home-content{
+    justify-content: center;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    background-image: url('../../assets/backgroundBlack2.jpg');
+    background-size: 100%;
+}
+
+.home-container .home-content .about-content{
+    box-sizing: border-box;
+    padding: 2% 10%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    
+}
+
+.home-container .home-content .about-content h5{
+    border-bottom: 1px solid #30CCB8;
+    color: #FEFEFE;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.about-content-datas{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.about-content img{
+    width: 40%;
+    margin: 0 2% 0 0 ;
+    border-radius: 3%;
+    opacity: 90%;
+}
+
+.about-content p{
+    margin: 0 0 0 2% ;
+    color: #FEFEFE;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    width: 60%;
+    background: none;
+}
+
+.members-content{
+    display: grid;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    /* border-top: 1px solid rgb(90, 90, 90);
+    border-bottom: 1px solid rgb(90, 90, 90); */
+    margin: 0;  
+}
+
+.home-container .home-content .members-content h5{
+    border-bottom: 1px solid rgb(48, 230, 205);
+    color: #fefefe;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.members-content-data{
+    display: grid;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.members-content ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    list-style: none;
+    padding-left: 0;
+}
+
+.members-content ul li{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.members-content ul li img{
+    height: 280px;
+    border-radius: 3%;
+    max-width: 217.500px;
+    min-width: 217.500px;
+    margin-top: 8%;
+}
+
+.members-content ul li span{
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 1%;
+    padding: 2% 0;
+    border-bottom: 1px solid rgb(48, 230, 205);
+    color: #ffffff;;
+}
+
+.members-content ul li p{
+    font-weight: bold;
+    margin: 4%;
+    color: #ffffff;;
+}
+
+.members-content ul li p+p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+

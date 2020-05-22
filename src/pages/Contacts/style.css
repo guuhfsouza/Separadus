@@ -1,0 +1,133 @@
+.contact-content{
+    box-sizing: border-box;
+    padding: 2% 10%;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 12%; */
+    background-image: url('../../assets/Logo1.png') center no-repeat fixed;
+}
+
+.contact-content h5{
+    border-bottom: 1px solid #30CCB8;
+    color: #FEFEFE;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.contact-content-datas{
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-bottom: 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.contact-content p, strong{
+    color: #FEFEFE;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    background: none;
+}
+
+.contact-content strong{
+    font-size: xx-large;
+    padding: 12px;
+    align-items: center;
+}
+
+.contact-content p{
+    padding: 12px;
+}
+
+.contact-content p + p{
+    font-size: 18px;
+}
+
+.contact-content strong svg{
+    background: none;
+    color: #ffffff;
+}
+
+.contact-content strong svg:hover{
+    color: rgb(52, 219, 197);
+}
+
+.contact-content .contact-form{
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.contact-content .contact-form .people{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.contact-content .contact-form .localization{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.contact-content .contact-form .data-event{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.contact-content .contact-form .textarea{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.contact-content .contact-form .textarea textarea{
+    min-width: 97%;
+    height: 30vh;
+    /* alterar o scroll */
+    padding: 1%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 6px;
+}
+
+.contact-content .contact-form input{
+    width: 80%;
+    margin: 4px;
+    padding: 1%;
+    border-radius: 6px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+}
+
+.contact-content .contact-form button{
+    width: 35%;
+    padding: 1%;
+    border: 2px solid rgb(52, 219, 197);
+    border-radius: 6px;
+    color: #161616;
+    background: rgb(52, 219, 197);
+    font-size: 18px;
+}
+.contact-content .contact-form button:hover{
+    z-index: 10;
+    width: 40%;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+
+
+
+
+

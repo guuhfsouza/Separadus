@@ -13,9 +13,9 @@ function Routes(){
             <Switch>
                 <Route path="/" exact component={Home}/>
                 {/* <Route path="/main" component={Main}/>
-                <Route path="/footer" component={Footer}/> */}
+                <Route path="/footer" component={Footer}/> 
                 <Route path="/carousel" component={Carousel}/>
-                <Route path="/event" component={Event}/>
+                <Route path="/event" component={Event}/>*/}
             </Switch>
         </BrowserRouter>
     )

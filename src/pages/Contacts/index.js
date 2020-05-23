@@ -15,7 +15,7 @@ function Contacts(){
                 <p>separadus@gmail.com</p>
                 <p>ou nos envie um e-mail attravés do formlulário a seguir</p>
             </div>
-            <form className="contact-form" onSubmit={""}>
+            <form className="contact-form">
                 <div className="people">
                     <input placeholder="Seu Nome"/>
                     <input placeholder="Seu E-mail"/>

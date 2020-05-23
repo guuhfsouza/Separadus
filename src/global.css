@@ -2,5 +2,7 @@
 
 *{
     font-family: 'Oswald', sans-serif;
-    /* background: rgba(102, 101, 101, 0.7); */
+}
+h5{
+    opacity: 1;
 }

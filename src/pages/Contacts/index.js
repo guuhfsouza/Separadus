@@ -7,7 +7,7 @@ import './style.css';
 function Contacts(){
     return(
         <section className="contact-content">
-            <h5>Nossos contatos</h5>
+            <h5>Contatos</h5>
             <div className="contact-content-datas">
                 <strong>
                     <FaPhone size={27}/> (18) 99797-9090 / 

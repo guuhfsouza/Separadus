@@ -21,7 +21,8 @@ function Contacts(){
             // verificar a forma correta de alterar a classe ao invés de
             //alterar o stylo via JS
             if(myDocElement + (myDocElement/11) >= 
-                myEventElement[0].offsetTop + (element.offsetTop -200 ))
+                myEventElement[0].offsetTop /*+ (element.offsetTop -200 )*/)
+                //parte do if comentada cria o efeito um por um dos eventos listados. Nesse caso ele soma o topo da pagina + o topo do elemento a ser apresentado.
             {
                 //element.classList.add('event-animate')
                 element.style.opacity = 1;

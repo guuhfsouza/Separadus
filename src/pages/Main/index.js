@@ -68,11 +68,12 @@ function Main () {
                         <img src={Logo} onClick={() => scroolScreen()} alt="Logo"/> 
                     </div>                
                     <div className="options">
-                        <a onClick={() => scroolScreen(3) }>QUEM SOMOS</a>
-                        <a onClick={() => scroolScreen(2) }>GALERIA</a>
-                        <a onClick={() => scroolScreen(4) }>EVENTOS</a>
                         <a onClick={() => scroolScreen(1) }>CONTATOS</a>
-
+                        <a onClick={() => scroolScreen(4) }>EVENTOS</a>
+                        <a onClick={() => scroolScreen(2) }>GALERIA</a>
+                        <a onClick={() => scroolScreen(3) }>QUEM SOMOS</a>
+                        <a /*onClick={() => scroolScreen(3) }*/ >MEDITAÇÕES</a>
+                        <a /*onClick={() => scroolScreen(3) }*/ >NOSSO DIA</a>
                     </div>
                 </div>
                 <img className="fundo" src={Fundo}/>

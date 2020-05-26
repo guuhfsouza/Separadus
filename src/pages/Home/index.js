@@ -23,6 +23,7 @@ function Home() {
             <Main/>
             <div className="home-content">
                 <Contacts/>
+                <Events/>
                 <Carousel/>
                 <section className="about-content" id="about">
                     <h5>Quem somos</h5>
@@ -35,7 +36,7 @@ function Home() {
                         </p>
                     </div>
                 </section>
-                <Events/>
+                
                 <section className="members-content" id="members">
                 <div className="members-content-data">
                     <h5>Membros</h5>

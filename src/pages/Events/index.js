@@ -20,7 +20,7 @@ function Contacts(){
         moreDetailsEvent.forEach(function(element){
             // verificar a forma correta de alterar a classe ao invés de
             //alterar o stylo via JS
-            if(myDocElement + (myDocElement/11) >= 
+            if(myDocElement + (myDocElement/15) >= 
                 myEventElement[0].offsetTop /*+ (element.offsetTop -200 )*/)
                 //parte do if comentada cria o efeito um por um dos eventos listados. Nesse caso ele soma o topo da pagina + o topo do elemento a ser apresentado.
             {
@@ -57,9 +57,9 @@ function Contacts(){
         <div className="events-content-internal">
             <h5>Eventos</h5>
                 <ul>
-                    <span> <FaArrowDown className="arroDown"/> 
+                    {/* <span> <FaArrowDown className="arroDown"/> 
                         Role para ver a agenda dos proximos dias.
-                    </span>
+                    </span> */}
                     <li>   
                         <div className="event">                     
                             <div className="event-details">
@@ -72,7 +72,7 @@ function Contacts(){
                                     </span>
                                 </div>
                                 <div className="more">
-                                    <FaAngleDown size={25}
+                                    <FaAngleDown className="arroDown" size={25}
                                     onClick={() => moreDetails(0)}
                                     />
                                 </div>
@@ -100,7 +100,8 @@ function Contacts(){
                                     </span>
                                 </div>
                                 <div className="more">
-                                    <FaAngleDown onClick={() => moreDetails(1)} size={25} /> 
+                                    <FaAngleDown className="arroDown" 
+                                    onClick={() => moreDetails(1)} size={25} /> 
                                 </div>
                                 <div className='event-more-details'>
                                     <span>
@@ -126,7 +127,8 @@ function Contacts(){
                                     </span>
                                 </div>
                                 <div className="more">
-                                    <FaAngleDown onClick={() => moreDetails(2)} size={25} /> 
+                                    <FaAngleDown className="arroDown" 
+                                    onClick={() => moreDetails(2)} size={25} /> 
                                 </div>
                                 <div className='event-more-details'>
                                     <span>
@@ -152,7 +154,8 @@ function Contacts(){
                                     </span>
                                 </div>
                                 <div className="more">
-                                    <FaAngleDown onClick={() => moreDetails(3)} size={25} /> 
+                                    <FaAngleDown className="arroDown" 
+                                    onClick={() => moreDetails(3)} size={25} /> 
                                 </div>
                                 <div className='event-more-details'>
                                     <span>
@@ -178,7 +181,8 @@ function Contacts(){
                                     </span>
                                 </div>
                                 <div className="more">
-                                    <FaAngleDown onClick={() => moreDetails(4)} size={25} /> 
+                                    <FaAngleDown className="arroDown" 
+                                    onClick={() => moreDetails(4)} size={25} /> 
                                 </div>
                                 <div className='event-more-details'>
                                     <span>

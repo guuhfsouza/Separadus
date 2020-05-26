@@ -55,13 +55,19 @@
     align-items: center;
 }
 
-.footer-container nav .footer-navigation .footer-icons svg:hover{
-    transition: all 0.8s;
-    color: #00C2A9;
+
+.footer-container nav .footer-navigation .footer-icons .a{
+    text-decoration: none;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.footer-container nav .footer-navigation .footer-icons a{
-    text-decoration: none;
+/* .footer-container nav .footer-navigation .footer-icons .a svg{    
+} */
+
+.footer-container nav .footer-navigation .footer-icons .a svg:hover{
+    transition: all 0.8s;
+    color: #00C2A9;
 }
 
 .footer-container nav section{

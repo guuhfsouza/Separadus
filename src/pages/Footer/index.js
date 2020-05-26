@@ -19,9 +19,10 @@ function Footer(){
                         <span> Todos os direitos reservado para a Separadu's Banda. </span>
                     </div>
                     <div className="footer-icons">
-                        <a href="https://www.facebook.com/separadusbanda/" target='_black'><FaFacebookSquare size={21} /></a>
-                        <a href="https://www.instagram.com/separadusbanda/?hl=pt-br" target='_black'> <FaInstagram size={22} /> </a>
-                        <a href="https://www.youtube.com/channel/UCqOD8dLKTBJgYSAtBujyIaw" target='_black'><IoLogoYoutube size={23} /></a>
+                        <span> Nossas redes sociais:</span>
+                        <a className="a" href="https://www.facebook.com/separadusbanda/" target='_black'><FaFacebookSquare size={21} /></a>
+                        <a className="a" href="https://www.instagram.com/separadusbanda/?hl=pt-br" target='_black'> <FaInstagram size={22} /> </a>
+                        <a className="a" href="https://www.youtube.com/channel/UCqOD8dLKTBJgYSAtBujyIaw" target='_black'><IoLogoYoutube size={23} /></a>
                     </div>
                 </section>
             </nav>

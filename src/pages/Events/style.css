@@ -49,23 +49,24 @@
 
 .arroDown{
     z-index: 10;
+    animation: arrow-animation infinite 1s ;
 }
 
-/* 
-@media (prefers-reduced-motion: no-preference){
+
+/* @media (prefers-reduced-motion: no-preference){
     .events-content ul span .arroDown{
         animation: arrow-animation infinite 1s ;
     }
-}
+} */
 
 @keyframes arrow-animation{
     from {
-        transform: rotate(0deg);
+        transform: translateY(-5px);
       }
       to {
-        transform: rotate(360deg);
+        transform: translateY(0px);
       }
-} */
+}
 
 .events-content ul li{
     margin-top: 1%;
@@ -135,7 +136,6 @@
     transition: all 5s;
     display: flex;
     flex-direction: column;
-    
 }
 
 .event-more-details-on:target{
@@ -146,4 +146,7 @@
     font-size: 18px;
     font-weight: normal;
     padding: 1% 1% 1% 0;
+    margin-right:0;
+    margin-left: 0;
+    margin-bottom: 0;
 }

@@ -5,7 +5,7 @@ import React from 'react';
 
 import './style.css'
 import '../../global.css'
-import smoothScrollTo from '../Animations/smoothScrollTo'
+import smoothScrollTo from '../../Animations/smoothScrollTo'
 
 import Logo from '../../assets/Logo.png';
 import Fundo from '../../assets/bandaAssis.png'

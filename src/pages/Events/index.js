@@ -55,7 +55,7 @@ function Contacts(){
     return(
         <section className="events-content">
         <div className="events-content-internal">
-            <h5>Eventos</h5>
+            <h5>Agenda</h5>
                 <ul>
                     {/* <span> <FaArrowDown className="arroDown"/> 
                         Role para ver a agenda dos proximos dias.

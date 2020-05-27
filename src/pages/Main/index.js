@@ -76,7 +76,7 @@ function Main () {
                         <a onClick={() => scroolScreen(2) }>GALERIA</a>
                         <a onClick={() => scroolScreen(3) }>QUEM SOMOS</a>
                         <a href="/meditation" >MEDITAÇÕES</a>
-                        <a href="/music" >MÚSICAS</a>
+                        <a href="/music">MÚSICAS</a>
                     </div>
                 </div>
                 <img className="fundo" src={Fundo}/>

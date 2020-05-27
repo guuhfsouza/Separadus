@@ -53,11 +53,6 @@ import Footer from '../Footer';
                                 <source  src={Video} type="video/mp4" />
                             </video>
                         </li>
-                        <li>
-                            <video  controls>
-                                <source  src={Video} type="video/mp4" />
-                            </video>
-                        </li>
 
                         <li>
                             <video  controls>

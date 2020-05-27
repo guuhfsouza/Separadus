@@ -7,6 +7,7 @@ import Home from './pages/Home';
 // import Carousel from './pages/Carousel';
 // import Event from './pages/Events';
 import Meditation from './pages/Meditations';
+import Music from './pages/Musics';
 
 function Routes(){
     return(
@@ -16,8 +17,9 @@ function Routes(){
                 {/* <Route path="/main" component={Main}/>
                 <Route path="/footer" component={Footer}/> 
                 <Route path="/carousel" component={Carousel}/>
-                <Route path="/event" component={Event}/>*/}
-                <Route path="/meditation" exact component={Meditation}/>
+                <Route path="/event" component={Event}/> */}
+                <Route path="/meditation" component={Meditation}/>
+                <Route path="/music" component={Music}/> 
             </Switch>
         </BrowserRouter>
     )

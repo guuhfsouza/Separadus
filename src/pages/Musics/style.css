@@ -1,0 +1,146 @@
+.music-container{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('../../assets/backgroundBlack.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.music-content{
+    display: flex;
+}
+
+.music-container #nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width:100%;
+    background-color: rgba(34, 34, 34, 0.7);
+    filter: brightness(200%);
+    padding:1%;
+}
+
+.music-container nav .logo{
+    padding: 10px;
+    align-items: center;
+    width: 20%;
+}
+
+.music-container nav .logo img{
+    box-sizing: border-box;
+    max-width: 90%;
+    min-width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.music-container nav .options{
+    text-align: right;
+    width: 70%;
+}
+
+.music-container nav .options a{
+    font-size: 25px;
+}
+
+.music-container nav .options a svg{
+    margin-right: 1%;
+}
+
+.music-container nav .options a svg:hover{
+    color: rgb(52, 219, 197);
+    transition: 0.8s;
+}
+
+.music-container .music-lyrics{
+    width: 50%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.music-container .music-lyrics section{
+    width: auto;
+    padding: 10%;
+    background-color: rgba(32, 32, 32, 0.7);
+    filter: brightness(200%);
+    border-radius: 8px;
+}
+
+.music-container .music-lyrics section h1{
+    color: #ffffff;
+    padding-bottom: 4%;
+}
+
+.music-container .music-lyrics section p{
+    color: #ffffff;
+}
+
+.music-container .music-mucis{
+    width: 50%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.music-container .music-mucis section{
+    width: auto;
+    box-sizing: border-box;
+}
+
+.music-container .music-mucis section .music-audio{
+    background-color: rgba(32, 32, 32, 0.7);
+    filter: brightness(200%);
+    padding: 10%;
+    border-radius: 8px;
+    margin-bottom: 2%;
+}
+
+.music-container .music-mucis section .music-audio h1{
+    color: #ffffff;
+    padding: 0 2% 2% 0;
+}
+
+.music-container .music-mucis section .music-audio audio{
+    width: 100%;
+    padding: 1%;
+    outline: none;
+}
+
+.music-container .music-mucis section ul{
+    background-color: rgba(32, 32, 32, 0.7);
+    filter: brightness(200%);
+    padding: 10%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.music-container .music-mucis ul h2{
+    color: #ffffff;
+    padding: 2% 2% 2% 0;
+}
+
+.music-container .music-mucis ul li{
+    list-style: none;
+    padding: 1% 1% 1% 0;
+}
+
+.music-container .music-mucis ul li a{
+     color: #ffffff;
+}
+
+.music-container .music-mucis ul li a svg{
+   animation: play-animation infinite 2s;
+}
+
+@keyframes play-animation{
+    from{
+        color: #ffffff;
+    }
+    to{
+        color: rgb(52, 219, 197);;
+    }
+}

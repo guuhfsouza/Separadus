@@ -112,6 +112,7 @@ nav .options a{
     font-size: 25px;
     font-weight: 300;
     color: #ffffff;
+    text-decoration: none;
 }
 
 nav .options a:hover{

@@ -2,23 +2,130 @@
     margin: 0;
     width: 100%;
     box-sizing: border-box;
+    background: url('../../assets/backgroundBlack.jpg');
+    background-size: 100%;
+    background-position: center;
 }
 
+.meditation-container #nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width:100%;
+    background-color: rgba(34, 34, 34, 0.7);
+    filter: brightness(200%);
+    padding:1%;
+}
+
+.meditation-container nav .logo{
+    padding: 10px;
+    align-items: center;
+    width: 20%;
+}
+
+.meditation-container nav .logo img{
+    box-sizing: border-box;
+    max-width: 90%;
+    min-width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.meditation-container nav .options{
+    text-align: right;
+    width: 70%;
+}
+
+.meditation-container nav .options a{
+    font-size: 25px;
+}
+
+.meditation-container nav .options a svg{
+    margin-right: 1%;
+}
+
+.meditation-container nav .options a svg:hover{
+    color: rgb(52, 219, 197);
+    transition: 1s;
+}
 
 .meditation-container .meditation-mensage{
     padding: 3% 10% ;
-    background: red;
     justify-content: center;
     box-sizing: border-box;
+    text-align: center;
+    background: transparent;
+}
+
+.meditation-container .meditation-mensage h5{
+    border-bottom: 1px solid #30CCB8;
+    color: #fefefe;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    background: none;
 }
 
 .meditation-container .meditation-mensage video{
     width: 100%;
+    min-height: auto;
     max-height: 500px;
-    background: rebeccapurple;
     box-sizing: border-box;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgba(34, 34, 34, 0.6)
 }
 
 .meditation-container .meditation-mensage video source{
     width: 100%;
+}
+
+.meditation-container .meditation-list{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3% 10% ;
+    text-align: center;
+}
+
+.meditation-container .meditation-list h3{
+    border-bottom: 1px solid #30CCB8;
+    color: #fefefe;
+    padding: 12px;
+    padding-bottom: 3px;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    background: none;
+}
+
+.meditation-container .meditation-list ul{
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.meditation-container .meditation-list ul li{
+    box-sizing: border-box;
+    margin: 0 1%;
+    width: 33%;
+}
+
+.meditation-container .meditation-list ul li video{
+    width: 100%;
+    min-height: auto ;
+    max-height: 500px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 8px;
 }

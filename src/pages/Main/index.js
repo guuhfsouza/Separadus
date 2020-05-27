@@ -1,4 +1,5 @@
-import React from 'react';
+import React  from 'react';
+import { useHistory } from 'react-router-dom';
 //import {FaFacebookSquare, FaInstagram, FaMapSigns} from 'react-icons/fa';
 //import {IoLogoYoutube} from 'react-icons/io';
 
@@ -11,6 +12,8 @@ import Logo from '../../assets/Logo.png';
 import Fundo from '../../assets/bandaAssis.png'
 
 function Main () {
+    const history = useHistory();
+
     const main = document.getElementsByClassName('main-content');
     window.addEventListener("scroll", scrollMenu );
 
@@ -72,7 +75,7 @@ function Main () {
                         <a onClick={() => scroolScreen(4) }>AGENDA</a>
                         <a onClick={() => scroolScreen(2) }>GALERIA</a>
                         <a onClick={() => scroolScreen(3) }>QUEM SOMOS</a>
-                        <a /*onClick={() => scroolScreen(3) }*/ >MEDITAÇÕES</a>
+                        <a href="/meditation" >MEDITAÇÕES</a>
                         <a /*onClick={() => scroolScreen(3) }*/ >NOSSO DIA</a>
                     </div>
                 </div>

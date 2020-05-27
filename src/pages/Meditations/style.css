@@ -87,6 +87,7 @@
 
 .meditation-container .meditation-mensage .video-information{
     background-color: rgba(34, 34, 34, 0.6);
+    filter: brightness(200%);
     display: flex;
     flex-direction: column;
     padding: 1%;
@@ -145,7 +146,6 @@
     outline: none;
     border-radius: 8px;
 }
-
 
 .meditation-container .meditation-list ul li .video-information{
     background-color: rgba(34, 34, 34, 0.6);

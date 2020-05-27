@@ -39,6 +39,11 @@ import Footer from '../Footer';
                     <video controls> 
                         <source src={Video} type="video/mp4" />
                     </video>
+                    <div className="video-information">
+                        <h1>Titulo</h1>
+                        <span> Data: 27/05/2020 </span>
+                        <span> Por: Thales </span>
+                    </div>
                 </section>
                 <section className="meditation-list">
                     <h3>Ultimos vídeos</h3>
@@ -47,33 +52,63 @@ import Footer from '../Footer';
                             <video  controls>
                                 <source  src={Video} type="video/mp4" />
                             </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
                         </li>
                         <li>
                             <video  controls>
                                 <source  src={Video} type="video/mp4" />
                             </video>
-                        </li>
-
-                        <li>
-                            <video  controls>
-                                <source  src={Video} type="video/mp4" />
-                            </video>
-                        </li>
-                        <li>
-                            <video  controls>
-                                <source  src={Video} type="video/mp4" />
-                            </video>
-                        </li>
-                        <li>
-                            <video  controls>
-                                <source  src={Video} type="video/mp4" />
-                            </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
                         </li>
 
                         <li>
                             <video  controls>
                                 <source  src={Video} type="video/mp4" />
                             </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
+                        </li>
+                        <li>
+                            <video  controls>
+                                <source  src={Video} type="video/mp4" />
+                            </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
+                        </li>
+                        <li>
+                            <video  controls>
+                                <source  src={Video} type="video/mp4" />
+                            </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <video  controls>
+                                <source  src={Video} type="video/mp4" />
+                            </video>
+                            <div className="video-information">
+                                <h4>Titulo</h4>
+                                <span> Data: 27/05/2020 </span>
+                                <span> Por: Thales </span>
+                            </div>
                         </li>
                     </ul>
                 </section>            

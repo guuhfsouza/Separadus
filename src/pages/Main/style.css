@@ -1,127 +1,132 @@
-*{
-    margin: 0;
-}
 
-.main-container{
-    width: 100%;    
-    justify-content: center;
-    transition: 2s;
-    box-sizing: border-box;
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    background-size: clone;
-}
+    *{
+        margin: 0;
+    }
 
-.main-container .main-logo{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: 28px;
-    margin-right: 28px; 
-    padding: 0.5% 2%;
-    box-sizing: border-box;
-}
-
-.main-container .main-logo  a, svg, span{
-    font-weight: normal;
-    padding: 0 3px;
-    /* color: rgb(187, 187, 187); */
-    color: #ffffff;
-
-}
-
-.main-container .main-logo span{
-    margin-right: 2%;
-}
-
-.main-container .main-logo svg:hover{
-    /* color: #f7980a;  */
-    color: rgb(52, 219, 197);
-    transition: 1s;
-}
-
-.main-container nav{
-    box-sizing: border-box;
-    width:auto;
-    background-image: url('../../assets/backgroundBlack.jpg');
-}
-
-.main-container nav .fundo{
-    box-sizing: border-box;
-    max-width: 100%;
-    min-width: 100%;
-    margin-top: 0;
-}
-
-.main-content{
-    /* position: fixed; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 28px;
-    margin-right: 28px;
-    padding: 12px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    border-top: 1px solid rgba(255,255,255,0.1);
-    position: fixed;
-    filter: brightness(200%);
-    z-index: 10;
-    background: none;
-}
-
-/* fazer o js alterar para essa classe o menu*/
-.main-content-scroll{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    border-top: 1px solid rgba(255,255,255,0.1);
-    position: fixed;
-    filter: brightness(200%);
-    z-index: 10;
-    background-color: rgba(34, 34, 34, 0.8);
-    margin: 0;
-    transition: 1s;
-}
-
-.main-container .main-content .logo{
-    padding: 12px;
-    align-items: center;
-    width: 20%;
+    .main-container{
+        width: 100%;    
+        justify-content: center;
+        transition: 2s;
+        box-sizing: border-box;
+        /* background-color: rgba(0, 0, 0, 0.7); */
+        background-size: clone;
+    }
     
-}
-
-.main-container .main-content .logo img{
-    box-sizing: border-box;
-    max-width: 90%;
-    min-width: 90%;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.main-container .main-content .options{
-    padding: 12px;
-    width: auto;
+    .main-container .main-logo{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 28px;
+        margin-right: 28px; 
+        padding: 0.5% 2%;
+        box-sizing: border-box;
+    }
     
-}
+    .main-container .main-logo  a, svg, span{
+        font-weight: normal;
+        padding: 0 3px;
+        /* color: rgb(187, 187, 187); */
+        color: #ffffff;
+    
+    }
+    
+    .main-container .main-logo span{
+        margin-right: 2%;
+    }
+    
+    .main-container .main-logo svg:hover{
+        /* color: #f7980a;  */
+        color: rgb(52, 219, 197);
+        transition: 1s;
+    }
+    
+    .main-container nav{
+        box-sizing: border-box;
+        width:auto;
+        background-image: url('../../assets/backgroundBlack.jpg');
+    }
+    
+    .main-container nav .fundo{
+        box-sizing: border-box;
+        max-width: 100%;
+        min-width: 100%;
+        margin-top: 0;
+    }
+    
+    .main-content{
+        /* position: fixed; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 28px;
+        margin-right: 28px;
+        padding: 12px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-top: 1px solid rgba(255,255,255,0.1);
+        position: fixed;
+        filter: brightness(200%);
+        z-index: 10;
+        background: none;
+    }
+    
+    /* fazer o js alterar para essa classe o menu*/
+    .main-content-scroll{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-top: 1px solid rgba(255,255,255,0.1);
+        position: fixed;
+        filter: brightness(200%);
+        z-index: 10;
+        background-color: rgba(34, 34, 34, 0.8);
+        margin: 0;
+        transition: 1s;
+    }
+    
+    .main-container .main-content .logo{
+        padding: 12px;
+        align-items: center;
+        width: 20%;   
+    }
+    
+    .main-container .main-content .logo img{
+        box-sizing: border-box;
+        max-width: 90%;
+        min-width: 90%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .options-mobile{
+        display: none;
+    }
 
-nav .options a{
-    padding: 5px 12px;
-    font-size: 25px;
-    font-weight: 300;
-    color: #ffffff;
-    text-decoration: none;
-}
+    .main-container .main-content .options{
+        padding: 12px;
+        text-align: left;
+    
+    }
+    
+    nav .options a{
+        padding: 5px 12px;
+        font-size: 25px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    nav .options a:hover{
+        /* color:rgb(39, 173, 156); */
+        transition: 0.8s;
+        color: rgb(52, 219, 197);   
+    }
+    
+    .line{
+        position: absolute;
+        border-bottom: 3px solid #ffffff;
+    }
 
-nav .options a:hover{
-    /* color:rgb(39, 173, 156); */
-    transition: 0.8s;
-    color: rgb(52, 219, 197);   
-}
-
-.line{
-    position: absolute;
-    border-bottom: 3px solid #ffffff;
-}

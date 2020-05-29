@@ -1,10 +1,11 @@
 import React  from 'react';
 import { useHistory } from 'react-router-dom';
-//import {FaFacebookSquare, FaInstagram, FaMapSigns} from 'react-icons/fa';
+import {/*FaFacebookSquare, FaInstagram, FaMapSigns*/ FaAngleDown} from 'react-icons/fa';
 //import {IoLogoYoutube} from 'react-icons/io';
 
 
 import './style.css'
+import './styleMobile.css';
 import '../../global.css'
 import smoothScrollTo from '../../Animations/smoothScrollTo'
 
@@ -22,7 +23,8 @@ function Main () {
     const about = document.getElementsByClassName('about-content');
     const photo = document.getElementsByClassName('carousel-container');
     const event = document.getElementsByClassName('events-content');
-    
+    const options = document.getElementsByClassName('options' || 'options-all');
+
     function scrollMenu(){
         const myDocElement = document.documentElement.scrollTop;
         if(myDocElement >= (nav[0].clientHeight - main[0].clientHeight)){
@@ -56,7 +58,27 @@ function Main () {
             smoothScrollTo(0, 0, 1000)            
     }
 
+    function openMainMobile(){
+        options[0].classList.toggle('options-all')
+        //options[0].classList.toggle('options')
+    }
 
+//#region 
+//criar =>
+    // function carouselMain1(){
+    //     document.getElementsByClassName('fundo').src = Logo;
+    //     setTimeout(carouselMain2, 3000)
+    // };
+
+    // function carouselMain2(){
+    //     document.getElementsByClassName('fundo').src = Fundo;
+    //     setTimeout(carouselMain1, 3000);
+    // };
+
+
+    // carouselMain1();
+//#endregion
+    
     return(
         <div className="main-container">
             {/* <div className="main-logo">
@@ -69,7 +91,10 @@ function Main () {
                 <div id="menu" className="main-content">
                     <div className="logo">   
                         <img src={Logo} onClick={() => scroolScreen()} alt="Logo"/> 
-                    </div>                
+                    </div>
+                    <div className="options-mobile">
+                        <FaAngleDown size={20} onClick={e => openMainMobile()}/>
+                    </div>                  
                     <div className="options">
                         <a onClick={() => scroolScreen(1) }>CONTATOS</a>
                         <a onClick={() => scroolScreen(4) }>AGENDA</a>
@@ -79,6 +104,7 @@ function Main () {
                         <a href="/music">MÚSICAS</a>
                     </div>
                 </div>
+    
                 <img className="fundo" src={Fundo}/>
         </nav>
         </div>

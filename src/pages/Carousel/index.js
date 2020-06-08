@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {FaAngleLeft, FaAngleRight} from 'react-icons/fa';
 
 import './style.css';
+import './styleMobile.css';
 
 import imagem0 from '../../assets/carousel/imagem1.jpg';
 import imagem1 from '../../assets/carousel/imagem2.jpg';

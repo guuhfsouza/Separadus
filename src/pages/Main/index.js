@@ -23,7 +23,7 @@ function Main () {
     const about = document.getElementsByClassName('about-content');
     const photo = document.getElementsByClassName('carousel-container');
     const event = document.getElementsByClassName('events-content');
-    const options = document.getElementsByClassName('options' || 'options-all');
+    const options = document.getElementsByClassName('options');
 
     function scrollMenu(){
         const myDocElement = document.documentElement.scrollTop;
@@ -56,11 +56,17 @@ function Main () {
         //topo
         else if (index === 0)
             smoothScrollTo(0, 0, 1000)            
+
+        openMainMobile();    
+
+        //como é escondido o menu, tem ficado a medida dele completo e por isso esta ficando uma 
+        //sobra de pagina entre  menu e a section desejada.
     }
 
     function openMainMobile(){
+        //criar uma lista com os <a> do options e fazer um foreach e para cada elemento aplicar
+        // o classList.toggle() para deixar a aparição da pagina mais customizada. 
         options[0].classList.toggle('options-all')
-        //options[0].classList.toggle('options')
     }
 
 //#region 
@@ -93,7 +99,7 @@ function Main () {
                         <img src={Logo} onClick={() => scroolScreen()} alt="Logo"/> 
                     </div>
                     <div className="options-mobile">
-                        <FaAngleDown size={20} onClick={e => openMainMobile()}/>
+                        <FaAngleDown size={35} onClick={e => openMainMobile()}/>
                     </div>                  
                     <div className="options">
                         <a onClick={() => scroolScreen(1) }>CONTATOS</a>

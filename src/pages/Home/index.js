@@ -12,7 +12,7 @@ import Events from '../Events';
 import BandaAbout from '../../assets/bandaAssis.jpg';
 
 
-// import Gustavo from '../../assets/members/banner guh.jpg';
+import Gustavo from '../../assets/members/banner guh.jpg';
 // import Thales from '../../assets/members/banner thales.jpg';
 // import Marcelo from '../../assets/members/banner marcelo.jpg';
 // import Leandro from '../../assets/members/banner leh.jpg';

@@ -4,7 +4,8 @@
 
 .home-container{
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 

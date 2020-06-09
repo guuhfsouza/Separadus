@@ -17,19 +17,19 @@ function Contacts(){
             </div>
             <form className="contact-form">
                 <div className="people">
-                    <input placeholder="Seu Nome"/>
-                    <input placeholder="Seu E-mail"/>
-                    <input placeholder="Seu Celular"/>
+                    <input placeholder="Seu Nome" required type="text"/>
+                    <input placeholder="Seu E-mail" required type="email"/>
+                    <input placeholder="Seu Celular" required type="phone"/>
                 </div>
                 <div className="localization">
-                    <input placeholder="Sua cidade"/>
-                    <input placeholder="Seu estado"/>
+                    <input placeholder="Sua cidade" required type="text"/>
+                    <input placeholder="Seu estado" required type="text"/>
                 </div>
                 <div className="data-event">
-                    <input placeholder="Data desejada"/>
-                    <input placeholder="Tipo de evento"/>
+                    <input placeholder="Data desejada" required type="date"/>
+                    <input placeholder="Tipo de evento" required type="text"/>
                 </div>
-                <div className="textarea">
+                <div className="textarea" required>
                     <textarea placeholder="Digite sua mensagem"/>
                 </div>            
                 <button type="submit"> Enviar </button>

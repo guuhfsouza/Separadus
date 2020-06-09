@@ -3,8 +3,9 @@
     padding: 2% 10%;
     justify-content: center;
     text-align: center;
-    /* margin-bottom: 12%; */
-    background-image: url('../../assets/Logo1.png') center no-repeat fixed;
+    /* background: url('../../assets/backgroundBlack.jpg') ;
+    background-position: center;
+    background-size: cover; */
 }
 
 .contact-content h5{
@@ -17,6 +18,8 @@
 }
 
 .contact-content-datas{
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 5%;
@@ -35,9 +38,8 @@
 }
 
 .contact-content strong{
-    font-size: xx-large;
     padding: 12px;
-    align-items: center;
+    justify-content: center;
 }
 
 .contact-content p{
@@ -67,6 +69,7 @@
     justify-content: space-between;
     padding: 12px;
 }
+
 .contact-content .contact-form .localization{
     display: flex;
     justify-content: space-between;
@@ -85,6 +88,7 @@
     padding: 12px;
     box-sizing: border-box;
 }
+
 .contact-content .contact-form .textarea textarea{
     min-width: 97%;
     height: 30vh;
@@ -119,6 +123,7 @@
     background: rgb(52, 219, 197);
     font-size: 18px;
 }
+
 .contact-content .contact-form button:hover{
     z-index: 10;
     width: 40%;

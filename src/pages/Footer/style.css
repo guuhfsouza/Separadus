@@ -11,9 +11,9 @@
 .footer-container nav{
     box-sizing: border-box;
     width: 100%;
-    display: grid;
-    background-color: rgb(32, 32, 32);
-    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34, 34, 34, 0.9);
 }
 
 .footer-container nav .footer-logo{
@@ -22,14 +22,14 @@
     align-items: center;
     padding: 6px;
     box-sizing: border-box;
-    height: 100px;
     /* background: #fefefe; */
 }
 
 .footer-container nav .footer-logo img{
     padding: 12px;
     align-items: center;
-    height: 50%;
+    width: 20%;
+    
 }
 
 .footer-container nav .footer-navigation{
@@ -52,11 +52,20 @@
 
 .footer-container nav .footer-navigation .footer-icons{
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
+.footer-container nav .footer-navigation .footer-icons fieldset{
+    border: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
 
-.footer-container nav .footer-navigation .footer-icons .a{
+.footer-container nav .footer-navigation .footer-icons fieldset .a{
     text-decoration: none;
+    flex-direction: row;
     align-items: center;
     box-sizing: border-box;
 }

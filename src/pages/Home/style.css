@@ -22,8 +22,8 @@
     padding: 2% 10%;
     justify-content: center;
     text-align: center;
-    display: grid;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .home-container .home-content .about-content h5{
@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 .about-content-datas img{
@@ -49,12 +49,13 @@
 }
 
 .about-content p{
-    margin: 0 0 0 2% ;
+    display: flex;
+    margin: 0 0 0 0 ;
     color: #FEFEFE;
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
-    width: 60%;
+    width: 100%;
     background: none;
 }
 
@@ -132,9 +133,5 @@
     text-align: justify;
 }
 
-@media (max-width: 850px){
-    .members-content{
-        display: none;
-    }
-}
+
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {FaWhatsapp, FaPhone} from 'react-icons/fa'
 
 import './style.css';
-
+import './styleMobile.css';
 
 function Contacts(){
     return(
@@ -13,7 +13,7 @@ function Contacts(){
                     <FaPhone size={27}/> (18) 99797-9090 / 
                     <FaWhatsapp size={30}/>(18) 99797-9090</strong>
                 <p>separadus@gmail.com</p>
-                <p>ou nos envie um e-mail attravés do formlulário a seguir</p>
+                <p>ou nos envie um e-mail através do formlulário a seguir</p>
             </div>
             <form className="contact-form">
                 <div className="people">

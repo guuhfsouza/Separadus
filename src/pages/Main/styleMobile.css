@@ -29,10 +29,10 @@
 
     .main-content .options-all{
         display: flex;
-        width: 50%;
+        width: 100%;
         border-radius: 8px;
         flex-direction: column;
-        background-color: rgba(34, 34, 34, 0.3);
+        background-color: rgba(34, 34, 34, 0.1);
         filter: brightness(100%);
         transition: 2s all;
         text-align: center;

@@ -1,0 +1,22 @@
+@media (max-width: 768px){
+    .footer-logo img{
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-container nav .footer-navigation .footer-text{
+        width: 100%;
+        
+    }
+    .footer-container nav .footer-navigation .footer-icons{
+        width: 100%;
+        align-items: center;
+        margin-top: 5%;
+    }
+}

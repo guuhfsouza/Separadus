@@ -104,7 +104,7 @@ function Main () {
                     <div className="options">
                         <a onClick={() => scroolScreen(1) }>CONTATOS</a>
                         <a onClick={() => scroolScreen(4) }>AGENDA</a>
-                        <a onClick={() => scroolScreen(2) }>GALERIA</a>
+                        {/* <a onClick={() => scroolScreen(2) }>GALERIA</a> */}
                         <a onClick={() => scroolScreen(3) }>QUEM SOMOS</a>
                         <a href="/meditation" >MEDITAÇÕES</a>
                         <a href="/music">MÚSICAS</a>

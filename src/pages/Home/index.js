@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './style.css';
+import './styleMobile.css';
 import '../../global.css';
 
 import Main from '../Main';
@@ -12,7 +13,7 @@ import Events from '../Events';
 import BandaAbout from '../../assets/bandaAssis.jpg';
 
 
-import Gustavo from '../../assets/members/banner guh.jpg';
+// import Gustavo from '../../assets/members/banner guh.jpg';
 // import Thales from '../../assets/members/banner thales.jpg';
 // import Marcelo from '../../assets/members/banner marcelo.jpg';
 // import Leandro from '../../assets/members/banner leh.jpg';
@@ -24,7 +25,7 @@ function Home() {
             <div className="home-content">
                 <Contacts/>
                 <Events/>
-                <Carousel/>
+                {/* <Carousel/> */}
                 <section className="about-content" id="about">
                     <h5>Quem somos</h5>
                     <div className="about-content-datas">

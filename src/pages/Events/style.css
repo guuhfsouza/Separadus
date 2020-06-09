@@ -14,7 +14,7 @@
 
 .events-content-internal{
     background:rgba(34, 34, 34, 0.5);
-    filter: brightness(200%);
+    /* filter: brightness(200%); */
     border-radius: 8px;
     padding-bottom: 5%;
 }

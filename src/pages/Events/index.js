@@ -2,6 +2,7 @@ import React from 'react';
 import {FaAngleDown, FaArrowDown} from  'react-icons/fa';
 
 import './style.css';
+import './styleMobile.css';
 
 
 function Contacts(){

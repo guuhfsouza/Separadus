@@ -28,31 +28,28 @@ function Main () {
     function scrollMenu(){
         const myDocElement = document.documentElement.scrollTop;
         if(myDocElement >= (nav[0].clientHeight - main[0].clientHeight)){
-            main[0].style.backgroundColor = 'rgba(34, 34, 34, 0.8)';
-            main[0].style.margin = '0';
-            main[0].style.transition = '1s';
-            //verificar uma forma de alterar a classe do componente o inves de alterar via
+            main[0].classList.add('scroll')
         }
-        else{
-            main[0].style.backgroundColor = "transparent";
-            main[0].style.margin = '0 28px 0 28px'
-            main[0].style.transition = '0.5s';
+         else{
+            main[0].classList.remove('scroll')
         }
     }
 
     function scroolScreen(index = 0){
         //contatos
         if(index === 1)
-            smoothScrollTo(0, (contact[0].offsetTop - main[0].clientHeight), 1000)            
+            smoothScrollTo(0,
+                (contact[0].offsetTop - (contact[0].clientHeight /14) ),
+                1000)            
         //galeria
         else if(index === 2)
-            smoothScrollTo(0, (photo[0].offsetTop - main[0].clientHeight), 1000)            
+            smoothScrollTo(0, (photo[0].offsetTop - (photo[0].clientHeight /14 )), 1000)            
         //quem somos
         else if(index === 3)
-            smoothScrollTo(0, (about[0].offsetTop - main[0].clientHeight), 1000)            
+            smoothScrollTo(0, (about[0].offsetTop - (about[0].clientHeight/ 6)), 1000)            
         //eventos
         else if(index === 4)
-            smoothScrollTo(0, (event[0].offsetTop - main[0].clientHeight), 1000)            
+            smoothScrollTo(0, (event[0].offsetTop - (event[0].clientHeight / 13)), 1000)            
         //topo
         else if (index === 0)
             smoothScrollTo(0, 0, 1000)            

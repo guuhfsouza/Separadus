@@ -68,20 +68,11 @@
         filter: brightness(200%);
         z-index: 10;
         background: none;
+        transition: 1s;
     }
     
     /* fazer o js alterar para essa classe o menu*/
-    .main-content-scroll{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 12px;
-        box-sizing: border-box;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-        border-top: 1px solid rgba(255,255,255,0.1);
-        position: fixed;
-        filter: brightness(200%);
-        z-index: 10;
+    .scroll{
         background-color: rgba(34, 34, 34, 0.8);
         margin: 0;
         transition: 1s;

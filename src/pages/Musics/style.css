@@ -91,11 +91,14 @@
 }
 
 .music-container .music-mucis section .music-audio{
+    display: flex;
+    flex-direction: column;
     background-color: rgba(32, 32, 32, 0.7);
     filter: brightness(200%);
     padding: 10%;
     border-radius: 8px;
     margin-bottom: 2%;
+    justify-content: center;
 }
 
 .music-container .music-mucis section .music-audio h1{
@@ -104,9 +107,11 @@
 }
 
 .music-container .music-mucis section .music-audio audio{
-    width: 100%;
+    width: 97%;
     padding: 1%;
     outline: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .music-container .music-mucis section ul{
@@ -115,6 +120,10 @@
     padding: 10%;
     border-radius: 8px;
     box-sizing: border-box;
+}
+
+.music-container .music-mucis section ul span{
+    display: none;
 }
 
 .music-container .music-mucis ul h2{
@@ -129,10 +138,10 @@
 
 .music-container .music-mucis ul li a{
      color: #ffffff;
-}
+    }
 
-.music-container .music-mucis ul li a svg{
-   animation: play-animation infinite 2s;
+    .music-container .music-mucis ul li a svg{
+        animation: play-animation infinite 2s;
 }
 
 @keyframes play-animation{
@@ -141,5 +150,54 @@
     }
     to{
         color: rgb(52, 219, 197);;
+    }
+}
+
+@media (max-width: 768px){
+    .music-content{
+        flex-direction: column;
+    }
+
+    .music-container .music-mucis,
+    .music-container .music-lyrics{
+        width: 100%;
+    }
+
+    .music-container .music-mucis section .music-audio{
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+    .music-container .music-mucis section .music-audio audio{
+        margin-bottom: 2%;
+    }
+
+    .music-container nav .options a{
+        font-size: 16px;
+    }   
+
+    .music-container .music-mucis section ul{
+        display: none;
+    }
+
+    .music-container .music-mucis section ul span{
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    
+    .music-container .music-mucis section ul.open{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 100;
+        top: 0%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 3%;
+        padding-top: 5%;
+        background-color: rgba(34, 32, 32, 0.97);
+        filter: grayscale(1);
     }
 }

@@ -29,12 +29,12 @@ function Home() {
                 <section className="about-content" id="about">
                     <h5>Quem somos</h5>
                     <div className="about-content-datas">
-                        <img src={BandaAbout} alt="Banda"/>
                         <p>Somos uma banda da cidade de Assis que está em atividade a mais de 10 anos.
                            Nossa formação é composta por membros da 4º Igreja do Evangelho Quadrrangular que hoje,
                            é pastoreada pelo pastor Expedito e pastora Giselda.
                            Etc ....
                         </p>
+                        <img src={BandaAbout} alt="Banda"/>
                     </div>
                 </section>
                 

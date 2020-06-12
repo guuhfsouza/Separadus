@@ -6,6 +6,7 @@ import {IoMdClose} from 'react-icons/io'
 
 import '../../global.css';
 import './style.css';
+import './styleMobile.css';
 
 import Logo from '../../assets/Logo.png';
 import Audio from '../../Audios/Separadus Banda - 01.Santidade.mp3'

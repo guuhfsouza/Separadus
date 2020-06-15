@@ -32,17 +32,28 @@
     }
     
     .music-container .music-mucis section ul.open{
-        display: flex;
+        display: flex
+        ;
         flex-direction: column;
         position: fixed;
         z-index: 100;
-        top: 0%;
-        bottom: 0;
+        top: 0;
+        bottom:0;
         right: 0;
         left: 0;
         margin: 3%;
         padding-top: 5%;
         background-color: rgba(34, 32, 32, 0.97);
         filter: grayscale(1);
+        /* animation: animate-ul-open 1s ; */
     }
+    
+    /* @keyframes animate-ul-open {
+        to{
+            display: none;
+        }
+        from{
+            display: flex;
+        }
+    } */
 }

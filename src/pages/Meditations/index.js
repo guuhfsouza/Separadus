@@ -4,6 +4,7 @@ import {FaArrowLeft} from 'react-icons/fa';
 
 import '../../global.css';
 import './style.css'
+import './styleMobile.css'
 
 import Logo from '../../assets/Logo.png';
 import Video from '../../videos/teste.mp4';
@@ -39,7 +40,7 @@ import Footer from '../Footer';
                     {/* <iframe id="ytplayer" type="text/html" width="640" height="360"
                             src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
                             frameborder="0"/> */}
-                    <video controls> 
+                    <video controls autoPlay> 
                         <source src={Video} type="video/mp4" />
                     </video>
                     <div className="video-information">

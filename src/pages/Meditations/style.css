@@ -77,7 +77,8 @@
     box-sizing: border-box;
     outline: none;
     border-radius: 8px;
-    background-color: rgba(34, 34, 34, 0.6)
+    background-color: rgba(34, 34, 34, 0.6);
+    margin-top: 6%;
 }
 
 .meditation-container .meditation-mensage video source{
@@ -169,13 +170,3 @@
 }
 
 
-@media (max-width: 768px){
-    .meditation-container nav .options a{
-        font-size: 16px;
-    }
-    
-    .meditation-container .meditation-mensage h5, 
-    .meditation-container .meditation-list h3{
-        font-size: 30px;
-    }
-}

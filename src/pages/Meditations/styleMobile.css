@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+    .meditation-container nav .options a{
+        font-size: 16px;
+    }
+    
+    .meditation-container .meditation-mensage h5, 
+    .meditation-container .meditation-list h3{
+        font-size: 30px;
+    }
+
+    .meditation-container .meditation-mensage .video-information h1{
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    .meditation-container .meditation-list ul{
+        padding-top: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .meditation-container .meditation-list ul li{
+        width: auto;
+    }
+
+    .meditation-container .meditation-list ul li video{
+        height: 120px;
+        background: #000000;
+    }
+
+    .meditation-container .meditation-list ul li .video-information span{
+        display: none;
+    }
+
+    .meditation-container .meditation-list ul li .video-information h4{
+        font-weight: 500;
+        padding: 2%;
+    }
+}
